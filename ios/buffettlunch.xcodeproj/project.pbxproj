@@ -506,8 +506,13 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.planetxr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.planetxr.buffettlunch;
 				PRODUCT_NAME = buffettlunch;
+				PROVISIONING_PROFILE = "5c02b525-d144-427e-97b5-44fa4418b236";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore net.planetxr.buffettlunch";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore net.planetxr.buffettlunch";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
